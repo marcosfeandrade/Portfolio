@@ -41,7 +41,9 @@
 
 @media only screen and (max-width: 512px){
   .skills-list{
+    display: block;
     width: 90%;
+    font-size: 15px;
   }
   
   .skills-list li{
