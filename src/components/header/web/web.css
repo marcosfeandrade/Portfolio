@@ -12,9 +12,17 @@
 
 .web-option a{
   text-decoration: none;
-  color: green;
+  color: purple;
   display: flex;
   align-items: center;
+}
+
+.web-option a:hover{
+  text-decoration: none;
+  color: #FF00FF;
+  display: flex;
+  align-items: center;
+  transform: scale(1.2, 1.2);
 }
 
 .option-icon {

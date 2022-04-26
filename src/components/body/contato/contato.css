@@ -1,0 +1,68 @@
+.contacts{
+  font-size: 25px;
+  color: white;
+}
+
+.both{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.direct-links{
+  display: flex;
+  font-size: 30px;
+  color: white;
+}
+
+.social-links{
+  display: flex;
+  font-size: 30px;
+  color: white;
+}
+
+.social-links:visited{
+  text-decoration: none;
+}
+
+.contacts li{
+  margin: 0 1em;
+  list-style: none;
+}
+
+.contacts svg{
+  font-size: 1.5em;
+  color: purple;
+}
+
+#gmail svg:hover{
+  color: #F14336;
+}
+
+#whatsapp svg:hover{
+  color: #4DCB5B;
+}
+
+#linkedin svg:hover{
+  color: #2A68B5
+}
+
+#github svg:hover{
+  color: black;
+}
+
+#instagram svg:hover{
+  color: #D22D90;
+}
+
+@media only screen and (max-width: 1024px){
+  .contacts li{
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 512px){
+  .contacts li{
+    margin: 0 10px;
+  }
+}

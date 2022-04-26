@@ -1,13 +1,8 @@
-import React from 'react';
-import "./projetos.css";
-import { GoRepoForked, GoStar, GoEye } from "react-icons/go";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import React from 'react'
 import { useEffect, useState } from 'react';
+import { GoRepoForked, GoStar, GoEye } from "react-icons/go";
 
-
-
-function Projetos() {
-
+function MaisProjetos() {
   const [ repositories, setRepositories ] = useState([])
 
   useEffect(() => {
@@ -15,20 +10,8 @@ function Projetos() {
     .then(response => response.json())
     .then(data => setRepositories(data))
   }, [])
-
   return (
-    <div className="projects">
-      <div className="projects-header">
-        <h2>
-          Projetos
-        </h2>
-        <br/>
-        <div className="link-cv-div">
-        <a className="link-cv" href="https://drive.google.com/drive/folders/1UAht616Nv45MXPhcskkK6wNIol44IYL4?usp=sharing" target="_blank" rel="noreferrer">
-          Link CV
-        </a>
-        </div>
-        <div className="more-projects">
+    <div className="more-projects-repositories">
       <ul>
         { repositories.map(repository => {
           return (
@@ -46,9 +29,7 @@ function Projetos() {
         }) }
       </ul>
     </div>
-      </div>
-    </div>
   )
 }
 
-export default Projetos;
+export default MaisProjetos;

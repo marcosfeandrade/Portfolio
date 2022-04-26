@@ -1,0 +1,50 @@
+.skills-text{
+  font-size: 30px;
+}
+
+.skills-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 30px;
+  color: white;
+}
+
+.skills-list li{
+  margin: 0 1em;
+}
+
+.skills-list svg {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: purple;
+  border: solid;
+  padding: 5px
+}
+
+.skills-list svg:hover {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #FF00FF;
+}
+
+@media only screen and (max-width: 1024px){
+  .skills-list{
+    width: 90%;
+  }
+  
+  .skills-list li{
+    margin: 1px;
+  }
+}
+
+@media only screen and (max-width: 512px){
+  .skills-list{
+    width: 90%;
+  }
+  
+  .skills-list li{
+    margin: 1px;
+  }
+}

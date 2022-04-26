@@ -1,15 +1,26 @@
 .header{
   display: flex;
-  background-color: aqua;
+  background-color: #04042D;
   justify-content: space-between;
-  flex: 1;
+  flex: 1px;
   padding: 12px;
-  position: relative;
+  position: fixed;
+  width: 80%;
   align-items: center;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+#mfa-logo{
+  text-decoration: none;
+}
+
+#mfa-logo:visited{
+  color: white;
 }
 
 .menu{
-  background-color: aliceblue;
   display: flex;
   flex: 1;
   justify-content: flex-end;
@@ -35,6 +46,7 @@
 }
 
 @media only screen and (max-width: 720px){
+
   .mobile-menu{
     display: flex;
   }

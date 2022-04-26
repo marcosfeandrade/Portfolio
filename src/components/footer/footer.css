@@ -1,0 +1,14 @@
+.footer{
+  background-color: #04042D;
+  text-align: center;
+  padding: 25px;
+  width: auto;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: white;
+}
+
+.copyright-text{
+  font-family: "Open Sans";
+  opacity: .6;
+}

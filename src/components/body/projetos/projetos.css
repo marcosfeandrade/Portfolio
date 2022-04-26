@@ -1,0 +1,137 @@
+.projects-header{
+  display: block;
+}
+
+.link-cv-div{
+  display: flex;
+  justify-content: center;
+}
+
+.link-cv{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0 0 50px 0;
+  background-color: #4C004C;
+}
+
+.link-cv:hover {
+  background-color: #FF00FF;
+  color:black;
+}
+
+.link-cv:visited{
+  text-decoration: none;
+}
+
+.info-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-repositories{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: rgba(50, 50, 255, 0.3);
+  width: 50%;
+  padding: 5px;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 10px 5px 5px black;
+}
+
+.projects-repositories:hover {
+  box-shadow: 8px 7px 0 -3px rgba(55,55,55,0.2);
+  background-color: rgba(207, 19, 151, 0.301);
+  width: 55%; /*ajusta a largura do zoom*/
+}
+
+
+.repository-name{
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.repository-link{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 2px;
+  background-color: #4C004C;
+}
+
+.repository-link:hover {
+  background-color: #FF00FF;
+  color:black;
+}
+
+.repository-link:visited{
+  text-decoration: none;
+}
+
+.more-projects{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 50%;
+  
+}
+
+.more-projects ul{
+  list-style: none;
+}
+
+.more-projects li{
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  background-color: #4C004C;
+  padding: 30px;
+  margin: 15px;
+}
+
+.more-projects a{
+  color: white;
+  text-decoration: none;
+}
+
+.more-projects a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px){
+  .more-projects{
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 512px){
+  .more-projects{
+    width: 15%;
+  }
+}
+

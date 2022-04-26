@@ -5,9 +5,29 @@ html{
 .home{
   display: flex;
   flex-direction: column;
-  width: 85%;
   margin: auto;
-  background-color: darkgrey;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  width: 85%;
+}
+
+.container{
+  background: rgb(2,2,36);
+  background: linear-gradient(90deg, rgba(2,2,36,1) 0%, rgba(8,8,135,1) 50%, rgba(2,2,36,1) 96%);
+}
+
+.link-top{
+  color: #4C004C;
+  font-size: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.link-top:hover{
+  color: #FF00FF;
+  font-size: 70px;
+  position: fixed;
 }
 
 @media only screen and (max-width: 1024px){

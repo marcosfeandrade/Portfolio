@@ -1,23 +1,21 @@
 import React from 'react';
 import "./web.css";
+import { BiBrain, BiListUl, BiPhone } from "react-icons/bi";
 
 function Web() {
   return (
     <div className="web">
+
       <div className="web-option">
-        <a href="#project"><p class="option-icon">P</p> Projetos</a>
+        <a href="#skills"><p class="option-icon"><BiBrain/></p> Habilidades</a>
       </div>
 
       <div className="web-option">
-        <a href="#skills"><p class="option-icon">E</p> Experiencias</a>
+        <a href="#project"><p class="option-icon"><BiListUl/></p> Projetos</a>
       </div>
 
       <div className="web-option">
-        <a href="#works"><p class="option-icon">T</p> Trabalhos</a>
-      </div>
-
-      <div className="web-option">
-        <a href="#contact"><p class="option-icon">C</p> Contatos</a>
+        <a href="#contact"><p class="option-icon"><BiPhone/></p> Contatos</a>
       </div>
     </div>
   )
